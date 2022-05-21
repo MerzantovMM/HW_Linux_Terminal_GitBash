@@ -1,0 +1,21 @@
+#!/bin/bash
+ #step 1
+ cd group_28;
+ #step 2
+ mkdir m_1 m_2 m_3;
+ #step 3
+ cd m_1 ;
+ #step 4
+ touch file_1.txt file_2.txt file_3.txt file_4.json file_5.json;
+ #step 5
+ mkdir p_1 p_2 p_3;
+ #step 6
+ mv file_1.txt p_1| mv file_4.json p_1;
+ #step 7
+ ls -la
+ 
+ 
+ 
+
+
+
